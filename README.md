@@ -4,7 +4,7 @@
 
 Welcome to the **Video Downloader** project! This is a personal growth and educational project aimed at developing a platform for downloading videos and images from popular social media sites including YouTube, TikTok, Facebook, and Instagram. 
 
-The project is currently in the development phase and serves as an opportunity for learning and experimentation with various web technologies, including Next.js, Tailwind CSS, and Express.js.
+The project is currently in the development phase and serves as an opportunity for learning and experimentation with various web technologies, including Next.js, Tailwind CSS, and shadcn.
 
 ## 🌟 Key Features
 
@@ -26,8 +26,8 @@ The project is currently in the development phase and serves as an opportunity f
 ## 🛠️ Technologies Used
 
 - **Frontend**: Next.js 14, Tailwind CSS
-- **Backend**: Express.js
-- **Web Scraping**: TikTok Scraper (Note: Web scraping may violate platform policies)
+- **Backend**: Next.js
+- **Web Scraping**: Scraper (Note: Web scraping may violate platform policies)
 
 ## 🏗️ Current Status
 
