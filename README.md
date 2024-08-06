@@ -42,7 +42,7 @@ To get started with this project, follow these steps:
    git clone https://github.com/grtrsaroj/grtr-video-downloader.git
 2. **Navigate to Project Directory:**
    ```bash
-   cd video-downloader
+   cd grtr-video-downloader
 3. **Install Dependencies:**
    ```bash
    npm install
