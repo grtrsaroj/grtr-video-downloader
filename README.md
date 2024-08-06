@@ -39,7 +39,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/video-downloader.git
+   git clone https://github.com/grtrsaroj/grtr-video-downloader.git
 2. **Navigate to Project Directory:**
    ```bash
    cd video-downloader
