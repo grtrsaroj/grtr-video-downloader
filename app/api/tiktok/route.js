@@ -6,14 +6,13 @@ export async function GET(request) {
 
   try {
     const videoMeta = await TikTokScraper.getVideoMeta(url);
-    // Extract streaming URL
     const streamingUrl = videoMeta.formats.find(f => f.container === 'mp4')?.url || '';
 
     return NextResponse.json({
-      formats: videoMeta.formats, // Modify as needed
+      formats: videoMeta.formats,
       title: videoMeta.title,
       thumbnailUrl: videoMeta.thumbnailUrl,
-      streamingUrl, // Add this line to include streaming URL
+      streamingUrl,
     });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to fetch video metadata' }, { status: 500 });

@@ -1,5 +1,5 @@
 {
-  "name": "video-downloader",
+  "name": "grtr-video-downloader",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,12 +11,17 @@
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
+    "and": "^0.0.3",
     "axios": "^1.7.3",
+    "cheerio": "^1.0.0-rc.12",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "fb-video-downloader": "^1.0.3",
+    "fs": "^0.0.1-security",
     "lucide-react": "^0.424.0",
     "next": "14.2.5",
     "next-themes": "^0.3.0",
+    "path": "^0.12.7",
     "react": "^18",
     "react-dom": "^18",
     "stream": "^0.0.3",

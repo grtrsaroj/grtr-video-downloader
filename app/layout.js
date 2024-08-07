@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL('https://grtr-video-downloader.vercel.app'),
   title: "Video Downloader",
   description: "Download Video from any Social Media Platforms",
 };
@@ -14,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className} >
+      <body className={inter.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

@@ -50,6 +50,8 @@ export default function Home() {
       <div className="flex items-center mt-4 space-x-4">
         <Input
           type="text"
+          id="video-url"
+          name="video-url"
           placeholder="Enter video URL"
           value={url}
           onChange={(e) => setUrl(e.target.value)}

@@ -6,7 +6,7 @@ export async function GET(request) {
 
   try {
     const videoMeta = await TikTokScraper.getVideoMeta(url);
-    const downloadUrl = videoMeta.formats.find(f => f.itag === format)?.url; // Adjust as needed
+    const downloadUrl = videoMeta.formats.find(f => f.itag === format)?.url;
     
     if (downloadUrl) {
       return NextResponse.redirect(downloadUrl);
